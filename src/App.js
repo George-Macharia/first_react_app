@@ -5,6 +5,8 @@ import MovieCard from "./MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 
 
 // 4b79c65f
@@ -68,7 +70,7 @@ const App = () => {
                         )
                 }
 
-            
+<SpeedInsights/>
         </div>
     );
 };
